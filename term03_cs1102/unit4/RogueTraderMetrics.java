@@ -37,7 +37,7 @@ class RogueTraderMetrics {
         openingStockPrices = { 100.5, 102.2, 98.8, 105.3, 99.7, 101.4, 103.8, 97.5, 104.1, 98.2 };
     }
 
-    /** 
+    /* 
      * The main method is the entry point for Java applications
      */
     public static void main(String[] args) {
