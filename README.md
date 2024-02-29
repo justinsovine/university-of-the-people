@@ -1,6 +1,6 @@
 # University of the People Coursework
 
-This repository contains my coursework for the University of the People. Each directory corresponds to a specific course or assignment.
+This repository houses my coursework for the Computer Science Bachelor of Science (B.Sc) program at the University of the People. Each directory corresponds to a specific course or assignment within the program.
 
 ## Courses
 
