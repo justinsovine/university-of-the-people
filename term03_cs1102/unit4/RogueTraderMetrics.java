@@ -38,7 +38,7 @@ class RogueTraderMetrics {
     }
 
     /** 
-     * Calculates the average stock price. 
+     * Calculates and returns the average stock price.
      * 
      * NOTE: This is what's known as a "Javadoc" comment. This is a tool that comes with Java, 
      * and it uses these special comments to generate documentation in HTML format from the source code. 
@@ -57,10 +57,12 @@ class RogueTraderMetrics {
         // Calculate and return the average
     }
 
-    /** 
+    /**
      * Returns the maximum stock price.
-     * 
+     *
      * @param arrayOfStockPrices An array of stock prices for a given period.
+     * @return The maximum price among all the stocks.
+     * @throws IllegalArgumentException if the array is empty.
      */
     private double findMaximumPrice(double[] arrayOfStockPrices) {
         // Check if the array is empty
@@ -70,17 +72,36 @@ class RogueTraderMetrics {
         // Return the maximum price
     }
 
-    /** 
-     * 
+    /**
+     * Counts the occurrences of a target price in the given ArrayList of stock prices.
+     *
+     * @param arrayListOfStockPrices The ArrayList of stock prices.
+     * @param targetPrice            The target price to count occurrences for.
+     * @return The number of times the target price occurs in the ArrayList.
+     * @throws IllegalArgumentException if the ArrayList is null.
      */
-    private double calculateAveragePrice(double[] arrayOfStockPrices) {
+    private int countOccurrences(ArrayList<Double> arrayListOfStockPrices, double targetPrice) {
+        // Check if ArrayList arrayListOfStockPrices is empty
 
+        // Check if double targetPrice is empty
+
+        // Calculate how many times target price occurs in the array
+
+        // Return the calculation as an integer
     }
 
-    /** 
-     * 
+    /**
+     * Calculates the cumulative sum of stock prices at each position in the input ArrayList.
+     *
+     * @param arrayOfStockPrices The ArrayList of stock prices.
+     * @return A new ArrayList containing the cumulative sum of prices at each position.
+     * @throws IllegalArgumentException if the ArrayList is null.
      */
-    private double calculateAveragePrice(Float[] arrayOfStockPrices) {
+    private ArrayList<Double> computeCumulativeSum(ArrayList<Double> arrayListOfStockPrices) {
+        // Check if ArrayList arrayListOfStockPrices is empty
 
+        // Calculate the cumulative sum of prices at each position?
+
+        // Return the calculation as an ArrayList
     }
 }
