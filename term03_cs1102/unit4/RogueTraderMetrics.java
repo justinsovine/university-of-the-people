@@ -1,8 +1,15 @@
 /* 
- * Name: Shinra Recruit Management Interface
- * Description: Empowering Shinra administrators with efficient tools for commanding the future of our recruits.
- * Author: Justin Sovine
- * Date: February 22, 2024
+ * NAME: Rogue Trader Metrics 
+ * 
+ * DESCRIPTION: 
+ * RogueTraderMetrics is a covert initiative dedicated to monitoring and analyzing anomalous stock market trends. 
+ * The initiative was established to track and comprehend the financial implications of SCP anomalies, artifacts, 
+ * and entities in the global markets. The mission of Rogue Trader Metrics is twofold: to predict potential 
+ * financial crises caused by anomalous entities and to exploit market anomalies for funding the 
+ * SCP Foundation's clandestine operations. 
+ * 
+ * AUTHOR: Justin Sovine
+ * DATE: February 29, 2024 (Leap day!)
  */
 
 //
