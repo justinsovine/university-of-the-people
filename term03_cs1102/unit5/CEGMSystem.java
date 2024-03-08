@@ -71,7 +71,7 @@ class CEGMSystem {
         System.out.println("5. List courses");
         System.out.println("6. List students");
         System.out.println("7. Exit");
-        }
+    }
 
     // Get user's menu choice as an integer
     private static int getChoice() {
@@ -261,7 +261,6 @@ class CEGMSystem {
             System.out.println("No students available.");
         }
     }
-
 }
 
 // Student: Represents a student in the system with a unique ID, name, and a list of enrolled courses.
@@ -363,7 +362,6 @@ class Course {
         Double grade = grades.getOrDefault(student, -1.0); // Default value -1 if grade is not found
         return grade != null ? grade : -1.0;
     }
-
 }
 
 // CourseManagement: Manages the system's courses, students, and overall grades.
